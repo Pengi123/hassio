@@ -22,7 +22,7 @@ Maintainerr helps you:
 
 ## Configuration
 
-No special configuration is required by default. The add-on runs on port `3000`, as per the official Maintainerr documentation.
+No special configuration is required by default. The add-on runs on port `6246`, as per the official Maintainerr documentation.
 
 ## Access
 
