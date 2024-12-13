@@ -1,22 +1,18 @@
-{
-    "name": "Maintainerr",
-    "version": "1.0.0",
-    "slug": "maintainerr",
-    "description": "Integrate the Maintainerr tool with Home Assistant, providing a web interface to help you manage Docker images and containers.",
-    "url": "https://github.com/jorenn92/Maintainerr",
-    "arch": ["aarch64", "amd64", "armhf", "armv7"],
-    "image": "ghcr.io/jorenn92/maintainerr:latest",
-    "startup": "services",
-    "init": false,
-    "auto_uart": false,
-    "host_network": false,
-    "ports": {
-      "6246/tcp": 6246
-    },
-    "webui": "http://[HOST]:[PORT:6246]",
-    "boot": "auto",
-    "options": {},
-    "schema": {},
-    "map": ["config", "ssl", "share", "addons"]
-  }
-  
+name: "Maintainerr"
+version: "1.0.0"
+slug: "maintainerr"
+description: "Integrate the Maintainerr tool with Home Assistant."
+url: "https://github.com/jorenn92/Maintainerr"
+arch: ["aarch64", "amd64", "armhf", "armv7"]
+image: "ghcr.io/jorenn92/maintainerr:latest"
+startup: "services"
+init: false
+auto_uart: false
+host_network: false
+ports:
+  "6246/tcp": 6246
+webui: "http://[HOST]:[PORT:6246]"
+boot: "auto"
+options: {}
+schema: {}
+map: ["config", "ssl", "share", "addons"]

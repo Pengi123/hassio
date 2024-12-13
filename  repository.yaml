@@ -1,7 +1,4 @@
-{
-    "name": "Pengi123 Hassio Addons",
-    "udev": true,
-    "url": "https://github.com/Pengi123/hassio-addons",
-    "maintainer": "Pengi123"
-}
-  
+name: "Pengi123 Hassio Addons"
+url: "https://github.com/Pengi123/hassio-addons"
+maintainer: "Pengi123"
+version: "1.0.0"
